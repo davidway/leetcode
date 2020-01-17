@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class LeetCode1313 {
     public static void main(String[] args) {
         Integer[] nums ={1,2,3,4};
-        Integer[] out = decompressRLElist(nums);
+        int[] out = decompressRLElist(nums);
         Integer[] result= {2,4,4,4};
         System.out.println(Arrays.toString(out));
 
